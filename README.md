@@ -1,5 +1,5 @@
 # Forage---Deloitte-Job-Sim
-##Task 1
+## Task 1
 - Analyse the client's data
 - Create a dashboard using Tableau
 - Using a data unification algorithm, the tech team at our client, Daikibo, has converted all telemetry data collected from its 4 factories:
@@ -16,3 +16,18 @@ Q1 - In which location did machines break the most?
 Answer - Daikibo Factory Seiko (Osaka, Japan)
 Q2 - What are the machines that broke most often in that location?
 Answer - Laser Welder
+
+## Task 2
+- After a worrisome number of internal complaints about gender inequality in terms of salary, Daikibo Industrials wants us to help them investigate.
+The Forensic Tech team has built an algorithm to quantify “level of gender pay equality” for most job roles within the company, in all company locations. Our Forensics lead thinks it would be a great idea for you to finish the job.
+- We have processed all data on employee compensation and generated an Excel file (Equality Table.xlsx, available in the Resources) containing 3 columns:
+
+Factory
+Job Role
+Equality Score (integer; ranging between -100 and +100; 0 is ideal)
+Here is your task:
+
+Create a 4th column (Equality class), classifying the equality score into 3 types:
+Fair (+-10)
+Unfair (<-10 AND >10)
+Highly Discriminative (<-20 AND >20)
